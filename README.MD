@@ -13,12 +13,18 @@
 
 ## Basics
 
+- You'll need docker-engine and docker-compose
 - You'll probably need to add some port forwarding to your router (10999 and 11000)
 - Server files are in world/ directory
 - .env file is used to configure them
-- Check usage below to find out which variables names and types you should use
+- Check the ENVIRONMENT section below to find out which variables names and types you should use
 
 ## Usage
+
+- Just cd into DaDeDi folder
+- docker-compose up
+
+## Environment
 
 **NAME**  
 Sets the server's name. Shows up on the public server-list and in-game.
