@@ -1,0 +1,291 @@
+[00:00:00]: PersistRootStorage is now /var/lib/dsta//./cluster/underworld/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 191480
+[00:00:00]: Current time: Fri Sep 30 13:33:07 2016
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: underworld
+[00:00:00]: Release(Kernel) Version: 4.4.0-38-generic
+[00:00:00]: Kernel Build Timestamp: #57-Ubuntu SMP Tue Sep 6 15:42:33 UTC 2016
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 191480 LINUX
+[00:00:00]: Build Date: 1247
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -persistent_storage_root /var/lib/dsta -conf_dir . -cluster cluster -shard underworld -backup_log_count 0 
+[00:00:00]: ProfileIndex:5.20
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Error trying to change cluster setting (NETWORK->cluster_intention) from '' to 'cooperative'
+[00:00:00]: OnLoadPermissionList: /var/lib/dsta//./cluster/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: /var/lib/dsta//./cluster/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: /var/lib/dsta//./cluster/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: /var/lib/dsta//./cluster/cluster_token.txt
+[00:00:00]: Token retrieved from: /var/lib/dsta//./cluster/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: THREAD - started 'GAClient' (4137040704)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: THREAD - started 'ConsoleInput' (4131552064)
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: FMOD Error: An invalid object handle was used. 
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: DownloadMods(2)
+[00:00:01]: Download server mod 378160973
+[00:00:01]: Download server mod 382177939
+[00:00:01]: modoverrides.lua enabling workshop-382177939	
+[00:00:01]: modoverrides.lua enabling workshop-378160973	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-382177939	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:01]: Loading mod: workshop-378160973 (Global Positions) Version:1.5.1	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-382177939_CLIENT	
+[00:00:01]: Loading mod: workshop-382177939 (DST Storm Cellar) Version:1.8	
+[00:00:01]: Mod: workshop-382177939 (DST Storm Cellar)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-382177939 (DST Storm Cellar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-382177939 (DST Storm Cellar)	Loading modmain.lua	
+[00:00:01]: Warning: Calling Recipe from a mod is now deprecated. Please call AddRecipe from your modmain.lua file.	
+[00:00:01]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-382177939	
+[00:00:02]: FMOD Error: An invalid object handle was used. 
+[00:00:02]: LOADING LUA SUCCESS
+[00:00:02]: Registering mod namespace "workshop-378160973"
+[00:00:02]: PlayerDeaths could not load morgue	
+[00:00:02]: PlayerHistory could not load player_history	
+[00:00:02]: bloom_enabled	false	
+[00:00:02]: loaded saveindex	
+[00:00:02]: OnFilesLoaded()	
+[00:00:02]: OnUpdatePurchaseStateComplete	
+[00:00:02]: Mod: workshop-382177939 (DST Storm Cellar)	Registering prefabs	
+[00:00:02]: Mod: workshop-382177939 (DST Storm Cellar)	  Registering prefab file: prefabs/cellar	
+[00:00:02]: Mod: workshop-382177939 (DST Storm Cellar)	    cellar	
+[00:00:02]: Mod: workshop-382177939 (DST Storm Cellar)	    cellar_placer	
+[00:00:02]: Mod: workshop-382177939 (DST Storm Cellar)	  Registering default mod prefab	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalplayericon	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	    globalplayericon	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:02]: 	Load FE	
+[00:00:03]: 	Load FE: done	
+[00:00:03]: ModIndex: Load sequence finished successfully.	
+[00:00:03]: Reset() returning
+[00:00:04]: [200] Account Communication Success (6)
+[00:00:04]: Received (KU_8E75RnMh) from TokenPurpose
+[00:00:04]: Starting Dedicated Server Game	
+[00:00:04]: Network tick rate: U=15(2), D=0
+[00:00:04]: About to start a server with the following settings:
+[00:00:04]:   Dedicated: true
+[00:00:04]:   Online: true
+[00:00:04]:   Passworded: true
+[00:00:04]:   ServerPort: 10999
+[00:00:04]:   SteamAuthPort: 8766
+[00:00:04]:   SteamMasterServerPort: 27016
+[00:00:04]:   ClanID: false
+[00:00:04]:   ClanOnly: false
+[00:00:04]:   ClanAdmin: false
+[00:00:04]:   LanOnly: false
+[00:00:04]:   FriendsOnly: false
+[00:00:04]:   EnableAutosaver: true
+[00:00:04]:   PVP: false
+[00:00:04]:   MaxPlayers: 6
+[00:00:04]:   GameMode: survival
+[00:00:04]:   OverridenDNS: 
+[00:00:04]:   PauseWhenEmpty: true
+[00:00:04]:   VoteEnabled: true
+[00:00:04]:   InternetBroadcasting: true
+[00:00:04]:   Intent: cooperative
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-382177939	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:04]: Online Server Started on port: 10999
+[00:00:04]: unloading prefabs for mod MOD_workshop-382177939	
+[00:00:04]: unloading prefabs for mod MOD_workshop-378160973	
+[00:00:04]: Collecting garbage...
+[00:00:04]: lua_gc took 0.02 seconds
+[00:00:04]: ~ShardLuaProxy()
+[00:00:04]: ~ItemServerLuaProxy()
+[00:00:04]: ~InventoryLuaProxy()
+[00:00:04]: ~NetworkLuaProxy()
+[00:00:04]: ~SimLuaProxy()
+[00:00:04]: lua_close took 0.03 seconds
+[00:00:04]: ReleaseAll
+[00:00:04]: ReleaseAll Finished
+[00:00:04]: cGame::StartPlaying
+[00:00:04]: LOADING LUA
+[00:00:04]: DoLuaFile scripts/main.lua
+[00:00:04]: DoLuaFile loading buffer scripts/main.lua
+[00:00:04]: running main.lua
+	
+[00:00:04]: loaded modindex	
+[00:00:04]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:04]: modoverrides.lua enabling workshop-382177939	
+[00:00:04]: modoverrides.lua enabling workshop-378160973	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-382177939	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:04]: Loading mod: workshop-378160973 (Global Positions) Version:1.5.1	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-382177939	
+[00:00:04]: Loading mod: workshop-382177939 (DST Storm Cellar) Version:1.8	
+[00:00:04]: Mod: workshop-382177939 (DST Storm Cellar)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-382177939 (DST Storm Cellar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-382177939 (DST Storm Cellar)	Loading modmain.lua	
+[00:00:04]: Warning: Calling Recipe from a mod is now deprecated. Please call AddRecipe from your modmain.lua file.	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-382177939	
+[00:00:04]: LOADING LUA SUCCESS
+[00:00:04]: Registering mod namespace "workshop-378160973"
+[00:00:04]: PlayerDeaths could not load morgue	
+[00:00:04]: PlayerHistory could not load player_history	
+[00:00:04]: bloom_enabled	false	
+[00:00:04]: loaded saveindex	
+[00:00:04]: OnFilesLoaded()	
+[00:00:04]: OnUpdatePurchaseStateComplete	
+[00:00:04]: 	Unload FE	
+[00:00:04]: 	Unload FE done	
+[00:00:04]: Mod: workshop-382177939 (DST Storm Cellar)	Registering prefabs	
+[00:00:04]: Mod: workshop-382177939 (DST Storm Cellar)	  Registering prefab file: prefabs/cellar	
+[00:00:04]: Mod: workshop-382177939 (DST Storm Cellar)	    cellar	
+[00:00:04]: Mod: workshop-382177939 (DST Storm Cellar)	    cellar_placer	
+[00:00:04]: Mod: workshop-382177939 (DST Storm Cellar)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalplayericon	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    globalplayericon	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:04]: 	LOAD BE	
+[00:00:05]: 	LOAD BE: done	
+[00:00:05]: Loading world: session/A6BACCF08D9533B2/0000000004	
+[00:00:05]: Save file is at version 3	
+[00:00:05]: Begin Session: A6BACCF08D9533B2
+[00:00:05]: saving to server_temp/server_save	
+[00:00:05]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:05]: MiniMapComponent::AddAtlas( ../mods/workshop-382177939/minimap/cellar.xml )
+[00:00:05]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:05]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:05]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:05]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:05]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:05]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:06]: Loading Nav Grid	
+[00:00:06]: setting 	summerlength	15	
+[00:00:06]: setting 	isnightmaredawn	false	
+[00:00:06]: setting 	elapseddaysinseason	0	
+[00:00:06]: setting 	isfullmoon	false	
+[00:00:06]: setting 	moisture	71.971153259277	
+[00:00:06]: setting 	cavephase	day	
+[00:00:06]: setting 	isnightmarewild	false	
+[00:00:06]: setting 	moonphase	new	
+[00:00:06]: setting 	precipitationrate	0	
+[00:00:06]: setting 	iswet	false	
+[00:00:06]: setting 	winterlength	15	
+[00:00:06]: setting 	temperature	19.274161760379	
+[00:00:06]: setting 	isnightmarewarn	false	
+[00:00:06]: setting 	iswinter	false	
+[00:00:06]: setting 	moistureceil	732.31268310547	
+[00:00:06]: setting 	isday	false	
+[00:00:06]: setting 	israining	false	
+[00:00:06]: setting 	remainingdaysinseason	20	
+[00:00:06]: setting 	precipitation	none	
+[00:00:06]: setting 	wetness	0	
+[00:00:06]: setting 	isnightmarecalm	true	
+[00:00:06]: setting 	timeinphase	0.95960534731547	
+[00:00:06]: setting 	isdusk	false	
+[00:00:06]: setting 	iscavedusk	false	
+[00:00:06]: setting 	isautumn	true	
+[00:00:06]: setting 	issnowing	false	
+[00:00:06]: setting 	iscaveday	true	
+[00:00:06]: setting 	phase	night	
+[00:00:06]: setting 	snowlevel	0	
+[00:00:06]: setting 	issnowcovered	false	
+[00:00:06]: setting 	autumnlength	20	
+[00:00:06]: setting 	pop	0.098279266383963	
+[00:00:06]: setting 	nightmaretime	287.86775970459	
+[00:00:06]: setting 	springlength	20	
+[00:00:06]: setting 	isspring	false	
+[00:00:06]: setting 	nightmarephase	calm	
+[00:00:06]: setting 	season	autumn	
+[00:00:06]: setting 	time	0.59975334207217	
+[00:00:06]: setting 	iscavenight	false	
+[00:00:06]: setting 	cycles	0	
+[00:00:06]: setting 	isnight	true	
+[00:00:06]: setting 	nightmaretimeinphase	0.79963266584608	
+[00:00:06]: setting 	issummer	false	
+[00:00:06]: [Shard] Slave is waiting for LUA...
+[00:00:09]: Reconstructing topology	
+[00:00:09]: 	...Sorting points	
+[00:00:09]: 	...Sorting edges	
+[00:00:09]: 	...Connecting nodes	
+[00:00:09]: 	...Validating connections	
+[00:00:09]: 	...Housekeeping	
+[00:00:09]: 	...Done!	
+[00:00:09]: 1 uploads added to server. From server_temp
+[00:00:09]: Shard server mode disabled: missing cluster_key setting.
+[00:00:09]: [Shard] Missing cluster key setting
+[00:00:09]: Telling Client our new session identifier: A6BACCF08D9533B2
+[00:00:09]: ModIndex: Load sequence finished successfully.	
+[00:00:09]: Reset() returning
+[00:00:09]: [Steam] SteamGameServer_Init(8766, 10999, 27016)
+[00:00:10]: [Steam] SteamGameServer_Init success
+[00:00:10]: Validating portal[8] <-> <nil>[8] (inactive)	
+[00:00:10]: Validating portal[4] <-> <nil>[4] (inactive)	
+[00:00:10]: Validating portal[9] <-> <nil>[9] (inactive)	
+[00:00:10]: Validating portal[6] <-> <nil>[6] (inactive)	
+[00:00:10]: Validating portal[7] <-> <nil>[7] (inactive)	
+[00:00:10]: Validating portal[3] <-> <nil>[3] (inactive)	
+[00:00:10]: Validating portal[1] <-> <nil>[1] (inactive)	
+[00:00:10]: Validating portal[2] <-> <nil>[2] (inactive)	
+[00:00:10]: Validating portal[5] <-> <nil>[5] (inactive)	
+[00:00:10]: Validating portal[10] <-> <nil>[10] (inactive)	
+[00:00:23]: Serializing world: session/A6BACCF08D9533B2/0000000005
+[00:00:23]: unloading prefabs for mod MOD_workshop-382177939	
+[00:00:23]: unloading prefabs for mod MOD_workshop-378160973	
+[00:00:24]: [Shard] Stopping shard mode
+[00:00:24]: Collecting garbage...
+[00:00:24]: lua_gc took 0.14 seconds
+[00:00:24]: ~ShardLuaProxy()
+[00:00:24]: ~ItemServerLuaProxy()
+[00:00:24]: ~InventoryLuaProxy()
+[00:00:24]: ~NetworkLuaProxy()
+[00:00:24]: ~SimLuaProxy()
+[00:00:24]: lua_close took 0.23 seconds
+[00:00:24]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[00:00:24]: shaders/ui_yuv.ksh - 1
+[00:00:24]: CurlRequestManager::ClientThread::Main() complete
+[00:00:24]: HttpClient2 discarded 1 callbacks.
+[00:00:24]: Shutting down
