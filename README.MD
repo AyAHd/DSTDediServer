@@ -4,15 +4,18 @@
 
 ## This repo
 
-- Contains the DaDeDi configuration (which consists in "bobdbc" password, 6 players, two shards : normal + caves) in DaDeDi/ folder
+- Contains the DaDeDi configuration which consists in :
+    - "bobdbc" password
+    - 6 players
+    - two shards a normal Master and a cave slave-servers
+    - mods Storm Cellar and Global Positions (default configurations)
 - Does not contain any token
-
 
 ## Basics
 
 - You'll probably need to add some port forwarding to your router (10999 and 11000)
 - Server files are in world/ directory
-- .env file is used to configure it
+- .env file is used to configure them
 - Check usage below to find out which variables names and types you should use
 
 ## Usage
